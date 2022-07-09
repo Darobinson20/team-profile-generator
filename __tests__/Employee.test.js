@@ -1,5 +1,5 @@
 const Employee = require('../lib/Employee');
-
+//test case for employee
 test('create new employee object', () => {
     const employee = new Employee('Ja Morant', 12, 'ja@nba.com');
 

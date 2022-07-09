@@ -6,6 +6,7 @@ const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 const employees = [];
 
+//manager prompt
 const promptUser = () => { 
     return inquirer.prompt([
     {
@@ -48,6 +49,8 @@ Add a New Employee
 //     employeeData.addEmployee = [];
 // }
 
+
+//prompt to add employee
 return inquirer.prompt ([
     {
         type: 'list',
@@ -119,7 +122,7 @@ return inquirer.prompt ([
     employees.push(intern);
 })
 };
-
+//write file to generate the page 
 promptUser()
    .then(addEmployee)
    .then(data => {

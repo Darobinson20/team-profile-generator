@@ -1,5 +1,5 @@
 const Intern = require('../lib/Intern');
-
+//test case for intern
 test('create new intern object', () => {
     const name = 'Ja Morant';
     const id = '12';

@@ -1,5 +1,5 @@
 const Manager = require("../lib/Manager");
-
+// //test case for manager - pass
 test("create new manager object", () => {
   const name = "Ja Morant";
   const id = "12";
